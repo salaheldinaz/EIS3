@@ -1,5 +1,7 @@
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://github.com/salaheldinaz/eis)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![Docker Image CI](https://github.com/salaheldinaz/eis3/actions/workflows/docker-image.yml/badge.svg)](https://github.com/salaheldinaz/eis3/actions/workflows/docker-image.yml)
+
 
 <h1 align="center">ENS Info Scanner (EIS 3.0)</h1>
 
@@ -56,6 +58,7 @@ ex. `python main.py -a 0xb8c2c29ee19d8307cb7255e1cd9cbde883a267d5 -k 123456789ab
 ### Using Docker
 
 ##### Using the published image
+
 ```shell
 docker run -it --rm -v `pwd`:/app/results/ salaheldinaz/eis3:latest -d nick.eth -k 123456789abcdefg
 ```
