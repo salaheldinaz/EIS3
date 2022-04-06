@@ -1,9 +1,10 @@
 import os
-import requests
 from time import sleep
 from datetime import datetime
 import argparse
 import json
+
+import requests
 from web3 import Web3
 from ens import ENS
 
