@@ -1,5 +1,11 @@
-# ENS Info Scanner (EIS 3.0)
-Search for information about ens domain or eth address using ENS contracts in Ethereum chain, and ENS metadata api.
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://github.com/salaheldinaz/eis)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
+<h1 align="center">ENS Info Scanner (EIS 3.0)</h1>
+
+*<p align="center">Search for information about ens domain or eth address using ENS contracts in Ethereum chain, and ENS metadata api.</p>*
+
+---
 
 _Ethereum Name Service (ENS) is a distributed, extensible naming system based on the Ethereum blockchain._
 
@@ -47,12 +53,31 @@ ex. `python main.py -a 0xb8c2c29ee19d8307cb7255e1cd9cbde883a267d5 -k 123456789ab
 
 ---
 
-#### Running using docker
-```shell
-docker build -t "ens3:latest" . 
-docker run -it --rm -v `pwd`:/app/results/ ens3:latest -d nick.eth -k 123456789abcdefg
-```
-`pwd` This folder will be used to save the result.  
+### Using Docker
 
+##### Using the published image
+```shell
+docker run -it --rm -v `pwd`:/app/results/ salaheldinaz/ens3:latest -d nick.eth -k 123456789abcdefg
+```
+`pwd` This folder will be used to save the result.
 
 ---
+
+##### Using a local docker image
+1. Build
+```shell
+docker build -t "ens3:latest" . 
+```
+
+2. Run
+```shell
+docker run -it --rm -v `pwd`:/app/results/ ens3:latest -d nick.eth -k 123456789abcdefg
+```
+`pwd` This folder will be used to save the result.
+
+---
+
+Authors
+
+[![Michael James](https://img.shields.io/twitter/follow/ginsberg5150?style=social&logo=twitter)](https://twitter.com/ginsberg5150)
+     [![Salaheldinaz](https://img.shields.io/twitter/follow/salaheldinaz?style=social&logo=twitter)](https://twitter.com/salaheldinaz)
