@@ -59,7 +59,7 @@ ex. `python main.py -a 0xb8c2c29ee19d8307cb7255e1cd9cbde883a267d5 -k 123456789ab
 
 ##### Using the published image
 
-https://hub.docker.com/repository/docker/salaheldinaz/eis3
+https://hub.docker.com/r/salaheldinaz/eis3
 
 ```shell
 docker run -it --rm -v `pwd`:/app/results/ salaheldinaz/eis3:latest -d nick.eth -k 123456789abcdefg
