@@ -7,10 +7,16 @@
 
 *<p align="center">Search for information about ens domain or eth address using ENS contracts in Ethereum chain, and ENS metadata api.</p>*
 
+
 ---
 
-_Ethereum Name Service (ENS) is a distributed, extensible naming system based on the Ethereum blockchain._
+### Check [@Ginsberg5150](https://twitter.com/Ginsberg5150) Talk at OSINT Summit 2022 
 
+https://github.com/Ginsberg5150/Web3
+
+[<img src="https://github.com/Ginsberg5150/Web3/raw/main/header.png" align="center">](https://github.com/Ginsberg5150/Web3)
+
+---
 
 ### Prerequisite
 - Python 3.7 or newer.
